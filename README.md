@@ -4,7 +4,7 @@
 
 ## Setup
 
-The first things we need to do is install all of the components we need to work with HaxeFlixel. These are:
+You will need the following for this project:
 
 * Haxe
 * Lime
@@ -13,13 +13,9 @@ The first things we need to do is install all of the components we need to work 
 * IDE
 * Debug Player
 
-There is a more verbose explanation on installing many of these things here, but I’ll walk you through it quickly. If anything goes wrong, check there for more information.
-
 1. Goto http://haxe.org/download and download the Automatic Installer for your platform (Windows, Mac, or Linux). Run it to install Haxe.
 
-2. Next, open up a Command Prompt. In windows, you can go to Start>Run and type "cmd" and hit Enter.
-
-3. At the Command Prompt, enter the following commands (one at a time):
+2. Install the following from the command line:
 ``` bash
 haxelib install lime
 haxelib run lime setup
@@ -31,10 +27,10 @@ haxelib install flixel-tools
 haxelib run flixel-tools setup
 ```
 4. Install an IDE with Haxe support (FlashDevelop, Intellij, Visual-Studio-Code)
-5. Install a debug player, or just target to flash and drop into chrome.
+5. Install a debug player, or just target to flash and drop the swf file into chrome to see your work.
 
 ## Why Haxe?
-Haxe is a cross-compiler language that is lightweight, flexible, and able to support all browsers/devices/OS. It is able to compile down your project to either c++, php, neko, javaScript, HTML5, flash, and more.
+Haxe is a cross-compiler language that is lightweight, flexible, and able to support all browsers/devices/OS. It is able to compile down source code either c++, php, neko, javaScript, HTML5, flash, and more distributions.
 
 To learn more:
 * http://old.haxe.org/doc/compiler
@@ -61,7 +57,7 @@ You can substitute "neko" for any OpenFL target, including:
 * tizen
 * flash
 * html5
-* 
+
 Some targets are not available from every host platform. For example, iOS is only available when using a Mac.
 
 #### WARNING!
